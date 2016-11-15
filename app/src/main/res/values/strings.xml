@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">CookBook</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="light_eat">Закуски</string>
+    <string name="water">Напиток</string>
+
+    <string name="main">МОЯ КУЛИНАРНАЯ КНИГА</string>
+    <string name="sweet">Кулинарный шедевр</string>
+    <string name="waters">Здесь находятся рецепты напитков</string>
+    <string name="newbld">Новое блюдо</string>
+    <string name="but1">Поворот</string>
+    <string name="light">Здесь находятся рецепты закусок</string>
+    <string name="hot">Здесь находятся рецепты горячих блюд</string>
+    <string name="hot1">Для начала выберите время приготовления</string>
+    <string name="hot2">Что вы хотите приготовить?</string>
+    <string name="hot3">Выберите степень сложности блюда</string>
+
+    <string name="but11">мясо</string>
+    <string name="but12">рыба</string>
+    <string name="but13">овощи</string>
+
+
+    <string name="min1">30 мин.</string>
+    <string name="min2">1 час</string>
+    <string name="min3">1,5 часа</string>
+    <string name="min4">2 часа</string>
+
+    <string name="name">Название</string>
+    <string name="time">Время</string>
+    <string name="level">Сложность</string>
+    <string name="add">Добавить</string>
+
+</resources>

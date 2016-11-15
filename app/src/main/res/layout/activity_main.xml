@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    >
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id = "@+id/main_fraim">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main"
+            android:id="@+id/textView"
+            style="@style/MainWindow"
+            android:layout_gravity="center_horizontal|bottom" />
+
+    </FrameLayout>
+
+    <ListView
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|start"
+        android:id="@+id/ListLeftMenu"
+        style="@style/MyMenuStyle"
+
+        android:clickable="false"
+        android:drawSelectorOnTop="false">
+    </ListView>
+
+</android.support.v4.widget.DrawerLayout>

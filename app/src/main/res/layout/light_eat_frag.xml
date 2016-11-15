@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/newbld"
+        style="@style/MyButtonStyle"
+        android:id="@+id/buttonClickAdd"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="------------------------"
+        android:id="@+id/textViewLight1"
+        style="@style/MyTextViewStyle"
+
+        android:layout_alignParentTop="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewLightEat"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textViewLight1"
+        android:layout_above="@+id/buttonClickAdd" />
+</RelativeLayout>
